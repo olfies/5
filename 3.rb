@@ -3,7 +3,7 @@ a = gets.chomp.to_f
 b = gets.chomp.to_f
 c = gets.chomp.to_f
 
-def triangle(a,b,c)
+def triangle(a, b, c)
   arr = [a, b, c]
   if arr.min == 0
     p 'bad values!'
@@ -27,5 +27,5 @@ def triangle(a,b,c)
   end
 end
 
-triangle(a,b,c)
+triangle(a, b, c)
 
