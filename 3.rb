@@ -28,4 +28,3 @@ def triangle(a, b, c)
 end
 
 triangle(a, b, c)
-
